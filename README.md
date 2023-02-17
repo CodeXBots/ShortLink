@@ -9,11 +9,9 @@ Convert Any Link To Your Shortner Link With Post
   <b>Shortner-Converter-Bot</b>
 </h1>
 
-## TG Bot [@MovieVillaYT](t.me/MovieVillaYT)
-
 ## Credits 
 
-* [![Movɩe Vɩɭɭʌ](https://img.shields.io/static/v1?label=MovɩeVɩɭɭʌ&message=YouTube &color=critical)](https://youtube.com/@MovieVillaYT)
+* [![Movɩe Vɩɭɭʌ](https://img.shields.io/static/v1?label=MovɩeVɩɭɭʌ&message=YouTube&color=critical)](https://youtube.com/@MovieVillaYT)
 * [![Contact](https://img.shields.io/static/v1?label=Contact&message=On+Telegram&color=critical)](https://telegram.dog/MovieVillaSupport)
 
 ## Deploy 
