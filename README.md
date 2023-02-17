@@ -11,7 +11,7 @@ Convert Any Link To Your Shortner Link With Post
 
 ## Credits 
 
-* [![Movɩe Vɩɭɭʌ](https://img.shields.io/static/v1?label=MovɩeVɩɭɭʌ&message=YouTube&color=critical)](https://youtube.com/@MovieVillaYT)
+* [![Movie Villa](https://img.shields.io/static/v1?label=Movie Villa&message=YouTube&color=critical)](https://youtube.com/@MovieVillaYT)
 * [![Contact](https://img.shields.io/static/v1?label=Contact&message=On+Telegram&color=critical)](https://telegram.dog/MovieVillaSupport)
 
 ## Deploy 
