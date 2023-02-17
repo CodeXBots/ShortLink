@@ -9,7 +9,7 @@ Convert Any Link To Your Shortner Link With Post
   <b>Shortner-Converter-Bot</b>
 </h1>
 
-## TG Bot [@MovieVillaYT](telegram.dog/MovieVillaYT)
+## TG Bot [@MovieVillaYT](t.me/MovieVillaYT)
 
 ## Credits 
 
