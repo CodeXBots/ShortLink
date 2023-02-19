@@ -103,7 +103,7 @@ HELP_REPLY_MARKUP = InlineKeyboardMarkup([
 
 START_MESSAGE_REPLY_MARKUP  = InlineKeyboardMarkup([
     [
-        InlineKeyboardButton('🪄  Connect  To  OmegaLinks  ⚙️', url=f'https://bit.ly/3xurYKo')
+        InlineKeyboardButton('🪄  Connect  To  OmegaLinks  ⚙️', url=f'https://omegalinks.in/ref/devil')
     ]
 ])
 
@@ -117,7 +117,7 @@ BACK_REPLY_MARKUP = InlineKeyboardMarkup([
 ])
 
 USER_ABOUT_MESSAGE = """
-- Website: [{base_site}](https://bit.ly/3xurYKo)
+- Website: [{base_site}](https://omegalinks.in/ref/devil)
 
 - Site Link:
  {base_site}
