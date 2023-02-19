@@ -15,7 +15,7 @@ Other Ways 👇
 3. **Than Type** `/api` than give a single space and than paste your API Key
 **(see example to understand more...)**
 
-/api<space>API Key 
+/api <space> API Key 
 (See Example.👇)
 **Example:**
  `/api 9c5a6c96077a1b499d8f953331221159383eb434 `
@@ -47,7 +47,7 @@ HELP_MESSAGE = '''**{},**
 
 𝐍𝐎𝐓𝐄 :  ꜰᴏʀ  ᴅᴇᴛᴀɪʟꜱ 👇 👇'''
 
-ABOUT_TEXT = '''**{},
+ABOUT_TEXT = '''**
 I am Omega Links Converter Bot. I Can Convert Links Directly From Your OmegaLinks.in Account,**
 
 **⚡Features⚡**
@@ -64,7 +64,7 @@ I am Omega Links Converter Bot. I Can Convert Links Directly From Your OmegaLink
 
 **• I Can replace / remove other's channel links with your channel link. Hit 👉 /channel To know More...**
 
-**• I Can Automatically Replace Your Banner Image To images in the post. Hit  👉/Banner To Know More...**
+**• I Can Automatically Replace Your Banner Image To images in the post. Hit  👉/Banner_image To Know More...**
 
  Anyone who want to use any **other shortner** instead of OmegaLinks than **contact to owner** (all **shortners support** available.)'''
 
@@ -117,7 +117,7 @@ BACK_REPLY_MARKUP = InlineKeyboardMarkup([
 ])
 
 USER_ABOUT_MESSAGE = """
-- Website: [{base_site}](https://omegalinks.in/ref/devil)
+- Website: [{base_site}](https://bit.ly/3xurYKo)
 
 - Site Link:
  {base_site}
@@ -186,7 +186,7 @@ USERNAME_TEXT = """**ᴘʟᴇᴀꜱᴇ  ᴛʏᴘᴇ  ɪɴ  ɢɪᴠᴇɴ  ꜰᴏ�
 
 𝐎𝐫
 
-/channel https://telegram.dog/MovieVillaChat
+`/channel https://telegram.dog/MovieVillaChat`
 
 
 👉 /features  ᴛᴏ  ᴋɴᴏᴡ  ᴍᴏʀᴇ  ꜰᴇᴀᴛᴜʀᴇꜱ  ᴏꜰ  ᴛʜɪꜱ  ʙᴏᴛ."""
