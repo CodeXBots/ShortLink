@@ -5,8 +5,7 @@ Convert Any Link To Your Shortner Link With Post
 </p>
 
 
-## 🚀 ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs
-- [ʟɪɴᴋ ꜱᴇᴀʀᴄʜ ʙᴏᴛ](https://telegram.me/Link_Search_Robot)
+## 🚀 ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ʟɪɴᴋ ꜱᴇᴀʀᴄʜ ʙᴏᴛ](https://telegram.me/Link_Search_Robot)
 
 ## 🏷 Environment Variables
   - `API_ID` - Your Telegram API ID.
