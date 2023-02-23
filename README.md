@@ -6,7 +6,7 @@ Convert Any Link To Your Shortner Link With Post
 
 
 ## 🚀 Demo Bot
-- [@AutorequestapprovalBot](https://telegram.dog/AutorequestapprovalBot)
+- [ʟɪɴᴋ ꜱᴇᴀʀᴄʜ ʙᴏᴛ](https://telegram.me/Link_Search_Robot)
 
 ## Credits 
 
