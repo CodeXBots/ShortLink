@@ -1,7 +1,7 @@
 # Shortner-Converter-Bot
 Convert Any Link To Your Shortner Link With Post
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=AN+ADVANCE+LINK+SHORTNER+BOT!;CREATED+BY+Movɩe+Vɩɭɭʌ)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=AN+ADVANCE+LINK+SHORTNER+BOT!;CREATED+BY+TECHNO+LINUS)
 </p>
 
 
@@ -24,19 +24,19 @@ Convert Any Link To Your Shortner Link With Post
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
 </h3>
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/MovieVillaYT/Shortner-Converter-Bot">
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/TechnoLinus/Shortner-Converter-Bot">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy On Heroku">
 </a></p>
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ᴋᴏʏᴇʙ 」─
 </h3>
-<p align="center"><a href="https://app.koyeb.com/deploy?type=git&repository=github.com/MovieVillaYT/Shortner-Converter-Bot&branch=main&name=Shortner-Converter-Bot">
+<p align="center"><a href="https://app.koyeb.com/deploy?type=git&repository=github.com/TechnoLinus/Shortner-Converter-Bot&branch=main&name=Shortner-Converter-Bot">
   <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy On Koyeb">
 </a></p>
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʀᴇɴᴅᴇʀ 」─
 </h3>
-<p align="center"><a href="https://render.com/deploy?repo=https://github.com/MovieVillaYT/Shortner-Converter-Bot">
+<p align="center"><a href="https://render.com/deploy?repo=https://github.com/TechnoLinus/Shortner-Converter-Bot">
 <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
 </a></p></details>
 
@@ -44,7 +44,7 @@ Convert Any Link To Your Shortner Link With Post
 ## 💫 Credits 
 
 * [![Channel](https://img.shields.io/static/v1?label=Channel&message=YouTube&color=critical)](https://youtube.com/@MovieVillaYT)
-* [![Contact](https://img.shields.io/static/v1?label=Contact&message=On+Telegram&color=critical)](https://telegram.dog/MovieVillaSupport)
+* [![Contact](https://img.shields.io/static/v1?label=Contact&message=On+Telegram&color=critical)](https://telegram.dog/BotszSupport)
 
 
 ## 📌 Note
