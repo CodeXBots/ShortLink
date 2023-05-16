@@ -72,7 +72,7 @@ CUSTOM_ALIAS_MESSAGE = """For Custom Alias, `[link] | [custom_alias]`, Send in t
 
 This feature works only in private mode only
 
-Ex: https://telegram.me/MovieVillaSupport | Movie Villa"""
+Ex: https://telegram.me/MovieVillaYT | Movie Villa"""
 
 
 ADMINS_MESSAGE = """
@@ -84,7 +84,7 @@ List of Admins who has access to this Bot
 ABOUT_REPLY_MARKUP = InlineKeyboardMarkup([
 
     [
-        InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ  ᴛ𝚘  𝙾ᴡɴᴇʀ  ❣️', url='https://telegram.dog/MovieVillaOwner')
+        InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ  ᴛ𝚘  𝙾ᴡɴᴇʀ  ❣️', url='https://telegram.me/Nobideveloperr')
         
     ],
 
@@ -94,7 +94,7 @@ ABOUT_REPLY_MARKUP = InlineKeyboardMarkup([
 HELP_REPLY_MARKUP = InlineKeyboardMarkup([
 
     [
-        InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ  ᴛ𝚘  𝙾ᴡɴᴇʀ  ❣️', url='https://telegram.dog/MovieVillaOwner')
+        InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ  ᴛ𝚘  𝙾ᴡɴᴇʀ  ❣️', url='https://telegram.me/Nobideveloperr')
         
     ],
 
@@ -169,10 +169,10 @@ To Remove Footer Text: `/footer remove`
 `/footer
 ━━━━━━━━━━━━━━━━━
 💁‍♀️ How To Download 👇
-👉 https://youtube.com/@movievillayt
+👉 https://youtu.be/rddlpYLm0G0
 ━━━━━━━━━━━━━━━━━
 🔥 𝐉𝐨𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🔥
-👉 https://telegram.dog/Movievillayt`
+👉 https://telegram.me/Nobideveloper`
 """
 
 USERNAME_TEXT = """**ᴘʟᴇᴀꜱᴇ  ᴛʏᴘᴇ  ɪɴ  ɢɪᴠᴇɴ  ꜰᴏʀᴍᴀᴛ
@@ -182,11 +182,11 @@ USERNAME_TEXT = """**ᴘʟᴇᴀꜱᴇ  ᴛʏᴘᴇ  ɪɴ  ɢɪᴠᴇɴ  ꜰᴏ�
 
 𝐄𝐱𝐚𝐦𝐩𝐥𝐞:
 
-/channel @MovieVillaYT
+/channel @BotszList
 
 𝐎𝐫
 
-`/channel https://telegram.dog/MovieVillaChat`
+`/channel https://telegram.me/BotszList`
 
 
 👉 /features  ᴛᴏ  ᴋɴᴏᴡ  ᴍᴏʀᴇ  ꜰᴇᴀᴛᴜʀᴇꜱ  ᴏꜰ  ᴛʜɪꜱ  ʙᴏᴛ."""
