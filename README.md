@@ -43,7 +43,7 @@ Convert Any Link To Your Shortner Link With Post
 ## 💫 Credits 
 
 * [![Channel](https://img.shields.io/static/v1?label=Channel&message=YouTube&color=critical)](https://youtube.com/@MovieVillaYT)
-* [![Contact](https://img.shields.io/static/v1?label=Contact&message=On+Telegram&color=critical)](https://telegram.dog/BotszSupport)
+* [![Contact](https://img.shields.io/static/v1?label=Contact&message=On+Telegram&color=critical)](https://telegram.me/BotszSupport)
 
 
 ## 📌 Note
