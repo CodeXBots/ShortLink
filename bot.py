@@ -1,6 +1,4 @@
-# Don't Edit
-
-
+# © Nobideveloper
 import asyncio
 import datetime
 import logging
@@ -23,17 +21,13 @@ logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-# (c) Shrimadhav U K
-
 
 if __name__ == "__main__" :
 
     plugins = dict(
         root="plugins"
     )
-    MovieVillaYT = Client(
+    NOBIDEVELOPER = Client(
         "Mdisk-Pro",
         bot_token=BOT_TOKEN,
         api_id=API_ID,
@@ -53,34 +47,12 @@ if __name__ == "__main__" :
         async for user in banned_users:
             temp.BANNED_USERS.append(user["user_id"])
         logging.info(LOG_STR)
-        await broadcast_admins(self, '** Bot started successfully **\n\nBot By @MovieVillaYT')
+        await broadcast_admins(self, '** Bot started successfully **\n\nBot By @NobiDeveloper')
         logging.info('Bot started')
 
 
-    MovieVillaYT.run()
-
-# Removed Upper All Codes Because This is Not Required Now. 
-
-#SESSION = "MovieVillaYT"
-
-#class Bot(Client):
-
-    #def __init__(self):
-        #super().__init__(
-           # name=SESSION,
-            #api_id=API_ID,
-           # api_hash=API_HASH,
-           # bot_token=BOT_TOKEN,
-            #workers=50,
-           # plugins={"root": "plugins"},
-            #sleep_threshold=5,
-        #)
-
-
+    NOBIDEVELOPER.run()
 
     async def stop(self, *args):
         await super().stop()
         logging.info("Bot stopped. Bye.")
-
-#MovieVillaYT = Bot()
-#MovieVillaYT.run()
