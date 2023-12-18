@@ -169,7 +169,7 @@ To Remove Footer Text: `/footer remove`
 `/footer
 ━━━━━━━━━━━━━━━━━
 💁‍♀️ How To Download 👇
-👉 https://youtu.be/rddlpYLm0G0
+👉 https://youtu.be/aJILCCXfNVM
 ━━━━━━━━━━━━━━━━━
 🔥 𝐉𝐨𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🔥
 👉 https://telegram.me/Nobideveloper`
@@ -182,11 +182,11 @@ USERNAME_TEXT = """**ᴘʟᴇᴀꜱᴇ  ᴛʏᴘᴇ  ɪɴ  ɢɪᴠᴇɴ  ꜰᴏ�
 
 𝐄𝐱𝐚𝐦𝐩𝐥𝐞:
 
-/channel @BotszList
+/channel @NobiDeveloper
 
 𝐎𝐫
 
-`/channel https://telegram.me/BotszList`
+`/channel https://telegram.me/NobiDeveloper`
 
 
 👉 /features  ᴛᴏ  ᴋɴᴏᴡ  ᴍᴏʀᴇ  ꜰᴇᴀᴛᴜʀᴇꜱ  ᴏꜰ  ᴛʜɪꜱ  ʙᴏᴛ."""
