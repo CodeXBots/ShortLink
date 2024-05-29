@@ -72,7 +72,7 @@ CUSTOM_ALIAS_MESSAGE = """For Custom Alias, `[link] | [custom_alias]`, Send in t
 
 This feature works only in private mode only
 
-Ex: https://telegram.me/MovieVillaYT | Movie Villa"""
+Ex: https://telegram.me/RahulReviewsYT | Rahul Reviews"""
 
 
 ADMINS_MESSAGE = """
@@ -84,7 +84,7 @@ List of Admins who has access to this Bot
 ABOUT_REPLY_MARKUP = InlineKeyboardMarkup([
 
     [
-        InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ  ᴛ𝚘  𝙾ᴡɴᴇʀ  ❣️', url='https://telegram.me/Nobideveloperr')
+        InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ  ᴛ𝚘  𝙾ᴡɴᴇʀ  ❣️', url='https://telegram.me/CodeXBro')
         
     ],
 
@@ -94,7 +94,7 @@ ABOUT_REPLY_MARKUP = InlineKeyboardMarkup([
 HELP_REPLY_MARKUP = InlineKeyboardMarkup([
 
     [
-        InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ  ᴛ𝚘  𝙾ᴡɴᴇʀ  ❣️', url='https://telegram.me/Nobideveloperr')
+        InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ  ᴛ𝚘  𝙾ᴡɴᴇʀ  ❣️', url='https://telegram.me/CodeXBro')
         
     ],
 
@@ -172,7 +172,7 @@ To Remove Footer Text: `/footer remove`
 👉 https://youtu.be/aJILCCXfNVM
 ━━━━━━━━━━━━━━━━━
 🔥 𝐉𝐨𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🔥
-👉 https://telegram.me/Nobideveloper`
+👉 https://telegram.me/RahulReviewsYT`
 """
 
 USERNAME_TEXT = """**ᴘʟᴇᴀꜱᴇ  ᴛʏᴘᴇ  ɪɴ  ɢɪᴠᴇɴ  ꜰᴏʀᴍᴀᴛ
@@ -182,11 +182,11 @@ USERNAME_TEXT = """**ᴘʟᴇᴀꜱᴇ  ᴛʏᴘᴇ  ɪɴ  ɢɪᴠᴇɴ  ꜰᴏ�
 
 𝐄𝐱𝐚𝐦𝐩𝐥𝐞:
 
-/channel @NobiDeveloper
+/channel @RahulReviewsYT
 
 𝐎𝐫
 
-`/channel https://telegram.me/NobiDeveloper`
+`/channel https://telegram.me/RahulReviewsYT`
 
 
 👉 /features  ᴛᴏ  ᴋɴᴏᴡ  ᴍᴏʀᴇ  ꜰᴇᴀᴛᴜʀᴇꜱ  ᴏꜰ  ᴛʜɪꜱ  ʙᴏᴛ."""
