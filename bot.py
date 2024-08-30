@@ -1,58 +1,81 @@
-# © Nobideveloper
-import asyncio
-import datetime
+import sys
+import glob
+import importlib
+from pathlib import Path
+from pyrogram import idle
 import logging
 import logging.config
-import sys
-from pyrogram import *
-from pyrogram.errors.exceptions.not_acceptable_406 import *
-from config import *
-from database import *
-from database.users import *
-from helpers import *
-from pyshorteners import *
+
 logging.config.fileConfig('logging.conf')
 logging.getLogger().setLevel(logging.INFO)
-import os
-import pyrogram
-logging.getLogger("pyrogram").setLevel(logging.WARNING)
-import logging
-logging.basicConfig(level=logging.DEBUG,
-                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-logger = logging.getLogger(__name__)
+logging.getLogger("pyrogram").setLevel(logging.ERROR)
+logging.getLogger("imdbpy").setLevel(logging.ERROR)
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+)
+logging.getLogger("aiohttp").setLevel(logging.ERROR)
+logging.getLogger("aiohttp.web").setLevel(logging.ERROR)
 
+from pyrogram import Client, __version__
+from pyrogram.raw.all import layer
+from config import LOG_CHANNEL, ON_HEROKU, CLONE_MODE, PORT
+from typing import Union, Optional, AsyncGenerator
+from pyrogram import types
+from Script import script 
+from datetime import date, datetime 
+import pytz
+from aiohttp import web
+from CodeXBots.server import web_server
 
-if __name__ == "__main__" :
+import asyncio
+from pyrogram import idle
+from plugins.clone import restart_bots
+from CodeXBots.bot import StreamBot
+from CodeXBots.utils.keepalive import ping_server
+from CodeXBots.bot.clients import initialize_clients
 
-    plugins = dict(
-        root="plugins"
-    )
-    NOBIDEVELOPER = Client(
-        "Mdisk-Pro",
-        bot_token=BOT_TOKEN,
-        api_id=API_ID,
-        api_hash=API_HASH,
-        plugins=plugins
-    )
-    
-    async def start(self):
-        me = await self.get_me()
-        self.owner = await self.get_users(int(OWNER_ID))
-        self.username = f'@{me.username}'
-        temp.BOT_USERNAME = me.username
-        temp.FIRST_NAME = me.first_name
-        if not await db.get_bot_stats():
-            await db.create_stats()
-        banned_users = await filter_users({"banned": True})
-        async for user in banned_users:
-            temp.BANNED_USERS.append(user["user_id"])
-        logging.info(LOG_STR)
-        await broadcast_admins(self, '** Bot started successfully **\n\nBot By @CodeXBots')
-        logging.info('Bot started')
+ppath = "plugins/*.py"
+files = glob.glob(ppath)
+StreamBot.start()
+loop = asyncio.get_event_loop()
 
+async def start():
+    print('\n')
+    print('Initalizing File Store Bot')
+    bot_info = await StreamBot.get_me()
+    StreamBot.username = bot_info.username
+    await initialize_clients()
+    for name in files:
+        with open(name) as a:
+            patt = Path(a.name)
+            plugin_name = patt.stem.replace(".py", "")
+            plugins_dir = Path(f"plugins/{plugin_name}.py")
+            import_path = "plugins.{}".format(plugin_name)
+            spec = importlib.util.spec_from_file_location(import_path, plugins_dir)
+            load = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(load)
+            sys.modules["plugins." + plugin_name] = load
+            print("CodeXBots Imported => " + plugin_name)
+    if ON_HEROKU:
+        asyncio.create_task(ping_server())
+    me = await StreamBot.get_me()
+    tz = pytz.timezone('Asia/Kolkata')
+    today = date.today()
+    now = datetime.now(tz)
+    time = now.strftime("%H:%M:%S %p")
+    app = web.AppRunner(await web_server())
+    await StreamBot.send_message(chat_id=LOG_CHANNEL, text=script.RESTART_TXT.format(today, time))
+    await app.setup()
+    bind_address = "0.0.0.0"
+    await web.TCPSite(app, bind_address, PORT).start()
+    if CLONE_MODE == True:
+        await restart_bots()
+    print("Bot Started Powered By @CodeXBots")
+    await idle()
 
-    NOBIDEVELOPER.run()
-
-    async def stop(self, *args):
-        await super().stop()
-        logging.info("Bot stopped. Bye.")
+if __name__ == '__main__':
+    try:
+        loop.run_until_complete(start())
+    except KeyboardInterrupt:
+        logging.info('Service Stopped Bye 👋')
