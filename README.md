@@ -26,8 +26,8 @@ Convert Any Link To Your Shortner Link With Post
 - `API_HASH` : Get From [Here](https://youtu.be/RdMY6Lqfi9w)
 - `BOT_TOKEN` : Get From [BotFather](https://youtu.be/aJILCCXfNVM).
 - `BOT_USERNAME` : Your Bot Username Without @
-- `DB_URI` : Mongodb Database Url For Main Bot [Tutorial Watch Here](https://youtu.be/pMJpHoiu1go)
-- `CDB_URI` : Mongodb Database Url For Clone Bot [Tutorial Watch Here](https://youtu.be/pMJpHoiu1go)
+- `DB_URI` : Mongodb Database Url For Main Bot [Tutorial](https://youtu.be/pMJpHoiu1go)
+- `CDB_URI` : Mongodb Database Url For Clone Bot [Tutorial](https://youtu.be/pMJpHoiu1go)
 - `ADMINS` : It mean Admin/Owner Id For Broadcasting Message.
 - `LOG_CHANNEL` : Log channel id start with -100xxxxxx
 - `BIN_CHANNEL` : Bin channel id start with -100xxxxxx
@@ -37,6 +37,27 @@ Convert Any Link To Your Shortner Link With Post
 - `AUTO_DELETE_TIME` : Time In Seconds
 - `PYTHON_VERSION` : This Variable Is Only For Render, Value IS `3.10.8`
 - `PORT` : This Variable Is Only For Render, Value IS `8080`
+
+
+### 😍 COMMANDS
+
+# 🖍️ Main Bot :-
+
+- `/start` : By This Command You Can Check Bot Is Alive Or Not
+- `/link` : By This Command You Can Generate A Shareable Link Of File By Replying This Command To That File
+- `/batch` : By This Command You Can Generate Multiple File Shareable Link At A Time [Use Like This /batch (first post link) (last post link)]
+- `/base_site` : By This Command You Can Set Your Url Shortner Domain [Use Like This /base_site domain.com]
+- `/api` : By This Command You Can Set Your Url Shortner Api [Use Like This /api (your api key)]
+- `/deletecloned` : By This Command You Can Delete Your Cloned Bot [Use Like This /deletecloned (your bot token)]
+- `/broadcast` : By Using This Command You Can Broadcast A Message To Your Bot User, Reply This Command To Broadcast Message [Owner Only Command]
+
+# 🖍️ Clone Bot :- 
+
+- `/start` : By This Command You Can Check Bot Is Alive Or Not
+- `/link` : By This Command You Can Generate A Shareable Link Of File By Replying This Command To That File
+- `/base_site` : By This Command You Can Set Your Url Shortner Domain [Use Like This /base_site domain.com]
+- `/api` : By This Command You Can Set Your Url Shortner Api [Use Like This /api (your api key)]
+- `/broadcast` : By Using This Command You Can Broadcast A Message To Your Bot User, Reply This Command To Broadcast Message [Clone Bot Owner Only Command]
 
 
 <details>
