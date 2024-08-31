@@ -2,7 +2,7 @@
   ─「 ꜰɪʟᴇ ꜱᴛᴏʀᴇ  ʙᴏᴛ 」─
 </h2>
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=AN+ADVANCE+LINK+SHORTNER+BOT!;CREATED+BY+RAHUL)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=AN+ADVANCE+FILE+STORE+BOT+WITH+PERMANENT+LINKS+,+CUSTOM+URL+SHORTNER+TOKEN+VERIFICATION+!;CREATED+BY+RAHUL)
 </p>
 
 
