@@ -12,7 +12,7 @@ import json
 import base64
 import logging
 
-# Don't Remove Credit - @CodeXBots
+# Don't Remove Credit @CodeXBots
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
@@ -24,7 +24,7 @@ async def allowed(_, __, message):
         return True
     return False
 
-# Don't Remove Credit - @CodeXBots
+# Don't Remove Credit @CodeXBots
 
 @Client.on_message((filters.document | filters.video | filters.audio) & filters.private & filters.create(allowed))
 async def incoming_gen_link(bot, message):
@@ -37,9 +37,9 @@ async def incoming_gen_link(bot, message):
     user_id = message.from_user.id
     user = await get_user(user_id)
     if WEBSITE_URL_MODE == True:
-        share_link = f"{WEBSITE_URL}?Rahul={outstr}"
+        share_link = f"{WEBSITE_URL}?Tech_VJ={outstr}"
     else:
-        share_link = f"https://telegram.me/{username}?start={outstr}"
+        share_link = f"https://t.me/{username}?start={outstr}"
     if user["base_site"] and user["shortener_api"] != None:
         short_link = await get_short_link(user, share_link)
         await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n🖇️ sʜᴏʀᴛ ʟɪɴᴋ :- {short_link}</b>")
@@ -59,7 +59,7 @@ async def gen_link_s(bot, message):
     if message.has_protected_content and message.chat.id not in ADMINS:
         return await message.reply("okDa")
 
-# Don't Remove Credit - @CodeXBots
+# Don't Remove Credit @CodeXBots
     
     file_id, ref = unpack_new_file_id((getattr(replied, file_type.value)).file_id)
     string = 'filep_' if message.text.lower().strip() == "/plink" else 'file_'
@@ -68,7 +68,7 @@ async def gen_link_s(bot, message):
     user_id = message.from_user.id
     user = await get_user(user_id)
     if WEBSITE_URL_MODE == True:
-        share_link = f"{WEBSITE_URL}?Rahul={outstr}"
+        share_link = f"{WEBSITE_URL}?Tech_VJ={outstr}"
     else:
         share_link = f"https://telegram.me/{username}?start={outstr}"
     if user["base_site"] and user["shortener_api"] != None:
@@ -78,7 +78,7 @@ async def gen_link_s(bot, message):
         await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n🔗 ᴏʀɪɢɪɴᴀʟ ʟɪɴᴋ :- {share_link}</b>")
         
 
-# Don't Remove Credit - @CodeXBots
+# Don't Remove Credit @CodeXBots
 
 @Client.on_message(filters.command(['batch', 'pbatch']) & filters.create(allowed))
 async def gen_link_batch(bot, message):
@@ -98,7 +98,7 @@ async def gen_link_batch(bot, message):
     if f_chat_id.isnumeric():
         f_chat_id = int(("-100" + f_chat_id))
 
-# Don't Remove Credit - @CodeXBots
+# Don't Remove Credit @CodeXBots
     
     match = regex.match(last)
     if not match:
@@ -119,7 +119,7 @@ async def gen_link_batch(bot, message):
     except Exception as e:
         return await message.reply(f'Errors - {e}')
 
-# Don't Remove Credit - @CodeXBots
+# Don't Remove Credit @CodeXBots
     
     sts = await message.reply("**ɢᴇɴᴇʀᴀᴛɪɴɢ ʟɪɴᴋ ғᴏʀ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ**.\n**ᴛʜɪs ᴍᴀʏ ᴛᴀᴋᴇ ᴛɪᴍᴇ ᴅᴇᴘᴇɴᴅɪɴɢ ᴜᴘᴏɴ ɴᴜᴍʙᴇʀ ᴏғ ᴍᴇssᴀɢᴇs**")
 
@@ -127,7 +127,7 @@ async def gen_link_batch(bot, message):
 
     outlist = []
 
-# Don't Remove Credit - @CodeXBots
+# Don't Remove Credit @CodeXBots
 
     # file store without db channel
     og_msg = 0
@@ -154,7 +154,7 @@ async def gen_link_batch(bot, message):
                     "protect": cmd.lower().strip() == "/pbatch",
                 }
 
-# Don't Remove Credit - @CodeXBots
+# Don't Remove Credit @CodeXBots
 
                 og_msg +=1
                 outlist.append(file)
@@ -173,7 +173,7 @@ async def gen_link_batch(bot, message):
     user_id = message.from_user.id
     user = await get_user(user_id)
     if WEBSITE_URL_MODE == True:
-        share_link = f"{WEBSITE_URL}?Rahul=BATCH-{file_id}"
+        share_link = f"{WEBSITE_URL}?Tech_VJ=BATCH-{file_id}"
     else:
         share_link = f"https://telegram.me/{username}?start=BATCH-{file_id}"
     if user["base_site"] and user["shortener_api"] != None:
