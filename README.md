@@ -6,14 +6,18 @@ Convert Any Link To Your Shortner Link With Post
 
 
 
-## 🏷 Environment Variables
-  - `API_ID` - Your Telegram API ID.
-  - `API_HASH` - Your Telegram API HASH.
-  - `BOT_TOKEN` - Get it from BotFather.
-  - `OWNER_ID` - Your Telegram ID
-  - `UPDATE_CHANNEL` - Force subscribe channel username without `@`
-  - `LOG_CHANNEL` - Log Channel ID.
-  - `DATABASE_URL` - Mongodb database here
+### 🥰 FEATURES
+
+- Permanent Link By Using Website
+- Clone Feature Added
+- Token Verification Feature 
+- Steam Feature Added With Many Player Support
+- Custom Url Shortner Support
+- Batch Support Added
+- Auto Delete Feature Added
+- Custom Start Message, Pics & Buttons
+- Deploy on Heroku + Koyeb + Render + Railway.
+- Developer Service 24*7
 
 <details>
 <summary><h3>
