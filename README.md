@@ -12,12 +12,32 @@ Convert Any Link To Your Shortner Link With Post
 - Clone Feature Added
 - Token Verification Feature 
 - Steam Feature Added With Many Player Support
-- Custom Url Shortner Support
+- Custom Url Shortner
 - Batch Support Added
 - Auto Delete Feature Added
 - Custom Start Message, Pics & Buttons
 - Deploy on Heroku + Koyeb + Render + Railway.
 - Developer Service 24*7
+
+
+### 🔥 ALL VARIABLES
+
+- `API_ID` : Get From [Here](https://youtu.be/RdMY6Lqfi9w)
+- `API_HASH` : Get From [Here](https://youtu.be/RdMY6Lqfi9w)
+- `BOT_TOKEN` : Get From [BotFather](https://youtu.be/aJILCCXfNVM).
+- `BOT_USERNAME` : Your Bot Username Without @
+- `DB_URI` : Mongodb Database Url For Main Bot [Tutorial Watch Here](https://youtu.be/pMJpHoiu1go)
+- `CDB_URI` : Mongodb Database Url For Clone Bot [Tutorial Watch Here](https://youtu.be/pMJpHoiu1go)
+- `ADMINS` : It mean Admin/Owner Id For Broadcasting Message.
+- `LOG_CHANNEL` : Log channel id start with -100xxxxxx
+- `BIN_CHANNEL` : Bin channel id start with -100xxxxxx
+- `FILE_STORE_CHANNEL` : File Store Channel id start with -100xxxxxx
+- `FQDN` : Your Server App Link Without https://
+- `AUTO_DELETE` : Time In Minutes
+- `AUTO_DELETE_TIME` : Time In Seconds
+- `PYTHON_VERSION` : This Variable Is Only For Render, Value IS `3.10.8`
+- `PORT` : This Variable Is Only For Render, Value IS `8080`
+
 
 <details>
 <summary><h3>
