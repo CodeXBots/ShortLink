@@ -85,11 +85,12 @@ Convert Any Link To Your Shortner Link With Post
 </a></p></details>
 
 
-## 💫 Credits 
+## 💫 Credits
 
-* [![Channel](https://img.shields.io/static/v1?label=Channel&message=YouTube&color=critical)](https://youtube.com/@RahulReviews)
-* [![Contact](https://img.shields.io/static/v1?label=Contact&message=On+Telegram&color=critical)](https://telegram.me/CodeXSupport)
-
+- <b>[ᴠɪᴊᴀʏ](https://github.com/VJBots)  ➻  [ʀᴇᴘᴏ](https://github.com/VJBots) </b>
+- <b>[ʀᴀʜᴜʟ](https://github.com/CodeXBots)  ➻  [ᴇᴠᴇʀʏᴛʜɪɴɢ](https://youtube.com/@RahulReviews) </b>
+ 
+<b>ᴀɴᴅ ᴀʟʟ [ᴛʜᴇ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs](https://telegram.me/CodeXSupport) ᴡʜᴏ ʜᴇʟᴩᴇᴅ ɪɴ ᴍᴀᴋɪɴɢ ʀᴇɴᴀᴍᴇ ʙᴏᴛ ᴜsᴇꜰᴜʟ & ᴩᴏᴡᴇʀꜰᴜʟ 🖤 </b>
 
 ## 📌 Note
 
