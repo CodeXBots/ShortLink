@@ -26,14 +26,14 @@ from Script import script
 from datetime import date, datetime 
 import pytz
 from aiohttp import web
-from CodeXBots.server import web_server
+from TechVJ.server import web_server
 
 import asyncio
 from pyrogram import idle
 from plugins.clone import restart_bots
-from CodeXBots.bot import StreamBot
-from CodeXBots.utils.keepalive import ping_server
-from CodeXBots.bot.clients import initialize_clients
+from TechVJ.bot import StreamBot
+from TechVJ.utils.keepalive import ping_server
+from TechVJ.bot.clients import initialize_clients
 
 ppath = "plugins/*.py"
 files = glob.glob(ppath)
@@ -71,7 +71,7 @@ async def start():
     await web.TCPSite(app, bind_address, PORT).start()
     if CLONE_MODE == True:
         await restart_bots()
-    print("Bot Started Powered By @CodeXBots")
+    print("Bot Started Powered By CodeXBots")
     await idle()
 
 if __name__ == '__main__':
