@@ -1,13 +1,14 @@
-<h2 align="center">
-  ─「 ꜰɪʟᴇ ꜱᴛᴏʀᴇ  ʙᴏᴛ 」─
-</h2>
+<h1 align="center">
+ <b><a href="https://youtu.be/kuW1DwrHC1M" target="/blank">Post Search Bot</a>
+</h1>
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=AN+ADVANCE+FILE+STORE+BOT+;WITH+PERMANENT+LINKS,+CUSTOM+URL+;SHORTNER,+TOKEN+VERIFICATION,+;ClONE,+STREAM/DOWNLOAD+FEATURE+;CREATED+BY+RAHUL+(CodeXBots))
-</p>
+<p align="center">🩷 Thanks for Being Here 🩷</p>
 
 
 
 ### 🥰 FEATURES
+
+<details><summary>Tap On Me For Bot Features</summary>
 
 - Permanent Link By Using Website
 - Clone Feature Added
@@ -19,9 +20,12 @@
 - Custom Start Message, Pics & Buttons
 - Deploy on Heroku + Koyeb + Render + Railway.
 - Developer Service 24*7
+</details>
 
 
-### 🔥 ALL VARIABLES
+### 🔥 VARIABLES
+
+<details><summary>Tap On Me For Environment Variable</summary>
 
 - `API_ID` : Get From [Here](https://youtu.be/RdMY6Lqfi9w)
 - `API_HASH` : Get From [Here](https://youtu.be/RdMY6Lqfi9w)
@@ -38,11 +42,12 @@
 - `AUTO_DELETE_TIME` : Time In Seconds
 - `PYTHON_VERSION` : This Variable Is Only For Render, Value IS `3.10.8`
 - `PORT` : This Variable Is Only For Render, Value IS `8080`
+</details>
 
 
 ### 😍 COMMANDS
 
-<b>🖍️ Main Bot :-</b>
+<details><summary>Main Bot Commands :-</summary>
 
 - `/start` : By This Command You Can Check Bot Is Alive Or Not
 - `/link` : By This Command You Can Generate A Shareable Link Of File By Replying This Command To That File
@@ -51,20 +56,21 @@
 - `/api` : By This Command You Can Set Your Url Shortner Api [Use Like This /api (your api key)]
 - `/deletecloned` : By This Command You Can Delete Your Cloned Bot [Use Like This /deletecloned (your bot token)]
 - `/broadcast` : By Using This Command You Can Broadcast A Message To Your Bot User, Reply This Command To Broadcast Message [Owner Only Command]
+</details>
 
-<b>🖍️ Clone Bot :-</b>
+
+<details><summary>Clone Bot Commands :-</summary>
 
 - `/start` : By This Command You Can Check Bot Is Alive Or Not
 - `/link` : By This Command You Can Generate A Shareable Link Of File By Replying This Command To That File
 - `/base_site` : By This Command You Can Set Your Url Shortner Domain [Use Like This /base_site domain.com]
 - `/api` : By This Command You Can Set Your Url Shortner Api [Use Like This /api (your api key)]
 - `/broadcast` : By Using This Command You Can Broadcast A Message To Your Bot User, Reply This Command To Broadcast Message [Clone Bot Owner Only Command]
+</details>
 
-
+### 📶 DEPLOYEMENT
 <details>
-<summary><h3>
-- <b> DEPLOYEMENT SUPPORT </b>
-</h3></summary>
+<summary><b>Tap On Me For Deply</summary>
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
 </h3>
@@ -86,13 +92,26 @@
 </a></p></details>
 
 
-## 💫 Credits
+### 🥳 CREDIT
 
-- <b>[ᴠɪᴊᴀʏ](https://github.com/VJBots)  ➻  [ʀᴇᴘᴏ](https://github.com/VJBots) </b>
-- <b>[ʀᴀʜᴜʟ](https://github.com/CodeXBots)  ➻  [ᴇᴠᴇʀʏᴛʜɪɴɢ](https://youtube.com/@RahulReviews) </b>
- 
-<b>ᴀɴᴅ ᴀʟʟ [ᴛʜᴇ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs](https://telegram.me/CodeXSupport) ᴡʜᴏ ʜᴇʟᴩᴇᴅ ɪɴ ᴍᴀᴋɪɴɢ ʀᴇɴᴀᴍᴇ ʙᴏᴛ ᴜsᴇꜰᴜʟ & ᴩᴏᴡᴇʀꜰᴜʟ 🖤 </b>
+<details><summary>Tap On Me For Credit</summary>
 
-## 📌 Note
 
-Just Fork the repo and edit as per your needs.
+💝 Credit Goes To [CodeXBots](https://github.com/CodeXBots) So Don't Forgot To Give Credit
+
+💘 Base Repo Credit [VJBots](https://github.com/VJBots)
+
+💖 And Thank You So Much To All Who Help In This Journey.
+</details>
+
+### 💕 CONTACT DEVELOPER
+
+- [Rahul](https://telegram.me/CodeXBro)
+
+### ☕ BUY ME A COFFEE
+- [PayPal](https://paypal.me/RahulReviews)
+- [UPI](https://codexbots.github.io/UPI)
+
+### 📌 NOTE
+
+ᴊᴜꜱᴛ ꜰᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ ᴀɴᴅ ᴇᴅɪᴛ ᴀꜱ ᴘᴇʀ ʏᴏᴜʀ ɴᴇᴇᴅꜱ.</b>
