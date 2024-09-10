@@ -7,7 +7,7 @@
     <script type="text/javascript">
         document.addEventListener("DOMContentLoaded", function() {
             const urlParams = new URLSearchParams(window.location.search);
-            const linkParam = urlParams.get('Tech_VJ');
+            const linkParam = urlParams.get('Rahul');
 
             if (linkParam) {
                 const telegramUrl = "https://telegram.me/FileStoteBot?start=" + linkParam;
