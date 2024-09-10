@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting To Your Link</title>
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const linkParam = urlParams.get('Tech_VJ');
+
+            if (linkParam) {
+                const telegramUrl = "https://telegram.me/FileStoteBot?start=" + linkParam;
+                window.location.href = telegramUrl; // Redirect to the constructed Telegram URL
+            }
+        });
+    </script>
+</head>
+<body>
+    <h1>Redirecting To Your Link</h1>
+    <p>Subscribe Below YouTube Channel</p>
+    <a href="https://youtube.com/@RahulReviews">Subscribe Here</a>
+</body>
+</html>
