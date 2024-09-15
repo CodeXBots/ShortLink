@@ -27,7 +27,7 @@
 - `API_ID` : Get From [Here](https://youtu.be/RdMY6Lqfi9w)
 - `API_HASH` : Get From [Here](https://youtu.be/RdMY6Lqfi9w)
 - `BOT_TOKEN` : Get From [BotFather](https://youtu.be/aJILCCXfNVM).
-- `BASE_URL` : 
+- `BASE_URL` : Your app url
 - `DATABASE_URL` : Mongodb [Database](https://youtu.be/pMJpHoiu1go)
 - `SUPPORT_GROUP` : Your support group username without "@"
 - `UPDATES_CHANNEL` : Your update channel username without "@"
