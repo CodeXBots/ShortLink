@@ -24,7 +24,7 @@ async def callback(bot, query):
                     [InlineKeyboardButton("Sᴇᴛ Sʜᴏʀᴛɴᴇʀ ༆", callback_data="set_shortner"),
                      InlineKeyboardButton("Aʙᴏᴜᴛ ★", callback_data="about")],     
                     [InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⌘", url="https://telegram.me/CodeXsupport")],
-                    [InlineKeyboardButton("Rᴇᴘᴏ 🛠", url="https://github.com/CodeXBots/ShortLink-Convertor"),
+                    [InlineKeyboardButton("Rᴇᴘᴏ 🛠", url="https://github.com/CodeXBots/ShortLink"),
                      InlineKeyboardButton("Bᴀᴄᴋ ✰", callback_data="start")]
                 ]
             )
@@ -39,7 +39,7 @@ async def callback(bot, query):
                      InlineKeyboardButton("Dᴇᴠᴇʟᴏᴘᴇʀ ⚡", url="https://telegram.me/CodeXBro")],
                     [InlineKeyboardButton("Hᴇʟᴩ Mᴇɴᴜ ⁂", callback_data="help"),
                      InlineKeyboardButton("Eᴀʀɴ Mᴏɴᴇʏ ♕", callback_data="earn_money")],
-                    [InlineKeyboardButton("Rᴇᴘᴏ 🛠", url="https://github.com/CodeXBots/ShortLink-Convertor")],
+                    [InlineKeyboardButton("Rᴇᴘᴏ 🛠", url="https://github.com/CodeXBots/ShortLink")],
                     [InlineKeyboardButton("Bᴀᴄᴋ 𖦹", callback_data="start")]
                 ]
             )
@@ -52,7 +52,7 @@ async def callback(bot, query):
                     [InlineKeyboardButton("Hᴇʟᴩ Mᴇɴᴜ 🙌", callback_data="help"),
                      InlineKeyboardButton("Eᴀʀɴ Mᴏɴᴇʏ 🕊️", callback_data="earn_money")],
                     [InlineKeyboardButton("Bᴀᴄᴋ ✌", callback_data="help"),                     
-                     InlineKeyboardButton("Rᴇᴘᴏ 🛠", url="https://github.com/CodeXBots/ShortLink-Convertor")]
+                     InlineKeyboardButton("Rᴇᴘᴏ 🛠", url="https://github.com/CodeXBots/ShortLink")]
                 ]
             )
         )
