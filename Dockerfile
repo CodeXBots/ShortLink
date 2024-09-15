@@ -1,12 +1,11 @@
-FROM python:3.10.8-slim-buster
+FROM python:3.11.2-slim-buster
 
-RUN apt update && apt upgrade -y
-RUN apt install git -y
-COPY requirements.txt /requirements.txt
+WORKDIR /Shortlink-Convertor
 
-RUN cd /
-RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN mkdir /File-Store-Bot
-WORKDIR /File-Store-Bot
-COPY . /File-Store-Bot
-CMD ["python", "bot.py"]
+COPY requirements.txt .
+
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . .
+
+CMD ["python3", "bot.py"]
