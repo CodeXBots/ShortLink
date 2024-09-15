@@ -25,4 +25,4 @@ class Database:
         return user.get(key, None)
 
 
-db = Database(DATABASE_URL, "Shortner_Bot")
+db = Database(DATABASE_URL, "CodeXBots")
