@@ -13,7 +13,7 @@ START_TXT = '''<b>Hᴇʟʟᴏ {}, I Aᴍ ShortLink Convetor Bot.
 ๏ Uᴘᴅᴀᴛᴇs - @RahulReviewsYT</b>'''
 HELP_TXT = '''Sᴇɴᴅ ᴍᴇ ᴀɴʏ ʟɪɴᴋ ɪ ᴡɪʟʟ ᴄᴏɴᴠᴇʀᴛ ɪᴛ ᴛᴏ sʜᴏʀᴛ ʟɪɴᴋ ᴜsɪɴɢ ʏᴏᴜʀ ᴀᴘɪ
 ʏᴏᴜ ᴄᴀɴ sʜᴀʀᴇ ᴛʜᴀᴛ ʟɪɴᴋ ᴀɴᴅ ᴇᴀʀɴ ᴍᴏɴᴇʏ.
-sᴇɴᴅ /shortner ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ - Uᴘᴅᴀᴛᴇs - @RahulReviewsYT'''
+sᴇɴᴅ /ShortLink ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ - Uᴘᴅᴀᴛᴇs - @RahulReviewsYT'''
 ABOUT_TXT = '''<b>╔════❰ ShortLink Convetor ❱═══❍
 ║ ┏━━━━━━━━━❥
 ║ ┣ Mʏ ɴᴀᴍᴇ -> {}
