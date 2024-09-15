@@ -1,6 +1,6 @@
 FROM python:3.11.2-slim-buster
 
-WORKDIR /Shortlink-Convertor
+WORKDIR /ShortLink
 
 COPY requirements.txt .
 
