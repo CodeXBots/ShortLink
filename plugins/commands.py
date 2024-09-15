@@ -26,11 +26,11 @@ async def start_handler(c, m):
     except:
         pass
 
-@Client.on_message(filters.command('shortner') & filters.private)
+@Client.on_message(filters.command('shortlink') & filters.private)
 async def save_shortlink(c, m):
     if len(m.command) < 3:
         await m.reply_text(
-            "<b>🕊️ Cᴏᴍᴍᴀɴᴅ Iɴᴄᴏᴍᴘʟᴇᴛᴇ :\n\nPᴜᴛ Sʜᴏʀᴛɴᴇʀ URL & API Aʟᴏɴɢ Wɪᴛʜ Tʜᴇ Cᴏᴍᴍᴀɴᴅ .\n\nEx: <code>/shortner example.com api</code> \n ⚡ Uᴘᴅᴀᴛᴇs - @RahulReviewsYT</b>"
+            "<b>🕊️ Cᴏᴍᴍᴀɴᴅ Iɴᴄᴏᴍᴘʟᴇᴛᴇ :\n\nPᴜᴛ Sʜᴏʀᴛɴᴇʀ URL & API Aʟᴏɴɢ Wɪᴛʜ Tʜᴇ Cᴏᴍᴍᴀɴᴅ .\n\nEx: <code>/shortlink example.com api</code> \n ⚡ Uᴘᴅᴀᴛᴇs - @RahulReviewsYT</b>"
         )
         return    
     usr = m.from_user
