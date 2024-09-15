@@ -10,6 +10,10 @@
 
 <details><summary>Tap On Me For Bot Features</summary>
 
+- Link To ShortLink
+- All Sites Support
+- Enhanced Ui
+- Simple & Best
 - Custom Url Shortner
 - Deploy on Heroku + Koyeb + Render + Railway.
 - Developer Service 24*7
