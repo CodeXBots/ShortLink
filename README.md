@@ -76,7 +76,7 @@
 
 ### ☕ BUY ME A COFFEE
 - [PayPal](https://paypal.me/RahulReviews)
-- [UPI](https://codexbots.github.io/UPI)
+- [UPI](https://codexbots.github.io/Donate)
 
 ### 📌 NOTE
 
