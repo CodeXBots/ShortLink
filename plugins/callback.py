@@ -46,7 +46,7 @@ async def callback(bot, query):
         )
 
     elif data == "set_shortner":
-        await msg.edit("Send shortner URL & API along with the command.\n\nEx: <code>/shortner example.com api</code></b>",
+        await msg.edit("Send shortner URL & API along with the command.\n\nEx: <code>/shortlink example.com api</code></b>",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton("Hᴇʟᴩ Mᴇɴᴜ 🙌", callback_data="help"),
