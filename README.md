@@ -16,7 +16,7 @@
 - Simple & Best
 - Custom Url Shortner
 - Deploy on Heroku + Koyeb + Render + Railway.
-- Developer Service 24*7
+- [Developer support](https://telegram.me/CodeXSupport) 24x7
 </details>
 
 
